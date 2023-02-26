@@ -1,0 +1,138 @@
+body{
+    background-color: rgb(56, 56, 56);
+}
+
+.header{
+    display: flex;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    color: aqua;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.sub-container{
+    justify-content:center;
+
+}
+
+.sub-container form{
+    margin-top: 30px;
+    border: 4px;
+    border-style:dashed;
+    border-color: rgb(29, 29, 29);
+    background-color:  rgb(47, 47, 47);
+    border-radius: 20px;
+}
+
+.predict-container{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+
+.predict a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 140px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color:aqua;
+    border-style: dashed;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color:aqua ;
+}
+
+.predict a:hover{
+    background-color:rgba(29, 29, 29, 0.368) ;
+    text-shadow: 3px;
+}
+
+
+
+.form-header{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: rgb(204, 209, 209) ;
+
+}
+
+.form-element{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    margin: 10px;
+    padding:10px;
+}
+
+
+.form-element p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    margin-right: 7px;
+    color: rgb(204, 209, 209) ;
+
+}
+
+.form-element input{
+    height:35px;
+    border-radius: 17px;
+    padding-left: 15px;
+    border-style:solid;
+    border-color: rgba(0, 255, 255, 0.106);
+    background-color: rgb(56, 56, 56);
+}
+
+.form-button{
+    display: flex;
+    justify-content: center;
+    margin:15px;
+    padding: 10px 10px 30px 10px;
+} 
+
+.form-button input{
+    padding: 15px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style:solid;
+    border-color: rgba(0, 255, 255, 0.106);
+    background-color: rgba(0, 255, 255, 0);
+    color: aqua ;
+
+}
+
+.view-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:30px;
+    padding:20px;
+}
+
+
+.view-container .view a{
+    border-style: groove;
+    border-width: 1px;
+    border-color: rgba(0, 255, 255, 0.106);
+    padding: 15px;
+    border-radius: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: rgb(100, 100, 100) ;
+}
+
+.view-container .view a:hover{
+    background-color: rgb(47, 47, 47);
+    color:rgb(150, 150, 150);
+}

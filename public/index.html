@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" type="text/css">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles.css" >
+    <title>Attendance-predictor</title>
+</head>
+<body>
+    <div class="header">
+            <p>ATTENDANCE PREDICTOR</p>
+    </div>
+    <div class="container">
+        <div class="sub-container">
+
+            <div class="predict-container">
+                <div class="predict">
+                    <a href="/attendance/predict">Predict !!!</a>
+                </div>
+            </div>
+            <hr>
+
+            <form method="post" id="add-form" action="/attendance/add">    
+                <div class="form-header">
+                    <p>Add data</p>
+                </div>            
+                
+                <div class="form-element">
+                    <p>add today's attendance</p>
+                    <input type="text" name="present" placeholder="today's present">
+                </div>
+                
+                <div class="form-button">
+                    <input type="submit" value="Add today's attendance">
+                </div>
+                
+            </form>
+
+            <div class="view-container">
+                <div class="view">
+                    <a href="/attendance/view">View attendance log</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
